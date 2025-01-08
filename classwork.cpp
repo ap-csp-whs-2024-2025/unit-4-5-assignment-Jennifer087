@@ -8,6 +8,13 @@ void displayList(std::vector<T> const &v);
 int main()
 {
     // You can follow along with any code in class here
+    int x = 5;
+    double y = 2.3;
+    bool z = true;
+    std::string teacher = "Mr. Vu";
+
+    //a list of ints name Jennys
+    std::vector<int> jenny = {8, 6, 7, 5, 3, 0, 9};
 
     
     return 0;
