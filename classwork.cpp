@@ -16,7 +16,12 @@ int main()
     //a list of ints name Jennys
     std::vector<int> jenny = {8, 6, 7, 5, 3, 0, 9};
 
-    
+    std::vector<std::string> siblings = {"Jessie", "Jolie", "Na", "Jayden"};
+    std::cout << siblings [0] <<std::endl;
+
+    siblings.push_back ("Jen and Steven");
+    displayList(siblings);
+    siblings.pop_back();
     return 0;
 }
 
